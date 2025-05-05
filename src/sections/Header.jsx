@@ -1,6 +1,6 @@
 import Switchers from "../components/Switchers";
 import Logo from "../components/Logo";
-import Navbar from "../components/Navbar";
+import NavBar from "../components/NavBar.jsx";
 
 const Header = () => {
   return (
@@ -10,7 +10,7 @@ const Header = () => {
       </div>
       <div className="flex justify-between items-center">
         <Logo />
-        <Navbar />
+        <NavBar />
       </div>
     </header>
   );
